@@ -2,8 +2,8 @@ name: X86-64-K6.18
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 16 * * *
+  #schedule:
+  #  - cron: 0 16 * * *
 
 env:
   REPO_URL: https://github.com/LiBwrt/k6.18.git
